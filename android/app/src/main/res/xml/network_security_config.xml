@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Allow all HTTPS traffic. Base-config already allows HTTPS, but being explicit can help. -->
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">picsum.photos</domain>
+    </domain-config>
+     <!-- Base configuration allows HTTPS system certificates -->
+    <base-config>
+        <trust-anchors>
+            <!-- Trust preinstalled CAs -->
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
