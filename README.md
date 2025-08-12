@@ -16,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 
-> # Get the access of the app using this link: https://drive.google.com/file/d/1MKjC01B-NO9H4WFTUIFm9myMPIHD-COO/view?usp=sharing
+> # Get the access of the app using this link: https://drive.google.com/file/d/1cxf-Rp6V9MpHHP8GeyhglcE5Yt89D4ND/view?usp=sharing
