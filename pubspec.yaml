@@ -1,0 +1,66 @@
+name: findoc_app # Replace with your app's name if different
+description: "Findoc Gurugram Assignment."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Version number. Update this as you release new versions.
+version: 1.0.0+1 # Format: major.minor.patch+build_number
+
+# Specify the minimum required Dart SDK version.
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Adjust if you are using a different SDK version
+
+# Dependencies required for the application to run.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6 # Or the latest version available
+
+  # State management using BLoC pattern
+  flutter_bloc: ^8.1.3 # Or the latest version available
+
+  # Simplifies equality comparisons for objects (useful with Equatable)
+  equatable: ^2.0.5 # Or the latest version available
+
+  # For making HTTP requests to the Picsum API
+  http: ^1.5.0 # Or the latest version available
+
+# Dependencies used only during development or testing.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Linting rules for better code quality
+  flutter_lints: ^3.0.0 # Or the latest version available
+
+# The following section is specific to Flutter.
+flutter:
+
+  # Enables Material Design widgets and icons.
+  uses-material-design: true
+
+  # Asset declarations
+  # Make sure to place the files in the specified directories.
+
+  # Fonts
+  # Defines custom fonts for the application.
+  fonts:
+    - family: Montserrat # The name you will use in TextStyle.fontFamily
+      fonts:
+        # Regular weight font
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        # SemiBold weight font (600)
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+
+  # If you had static image assets (which you don't anymore for backgrounds),
+  # you would list them here like:
+  # assets:
+  #   - assets/images/
+
+# Note: After modifying this file, run `flutter pub get` in your terminal
+# to fetch the new dependencies or recognize new assets.
